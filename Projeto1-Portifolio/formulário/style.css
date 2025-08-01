@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    
+  }
+  main{
+    flex-direction: column;
+    min-height: 80vh;
+  }
+  header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+  }
+  
+.logo img{
+    width: 200px;
+    height: auto;
+  }
+   
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+  }
+  
+li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+    border-radius: 5px;
+    padding: 8px 15px;
+  }
+  
+  li a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+
+  
+ .form-section {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.form-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.form-contato label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-contato input,
+.form-contato textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: gray;
+    border: 1px solid #444;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form-contato button {
+    width: 100%;
+    padding: 14px;
+    background-color: black;
+   color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-contato button:hover {
+   background-color: white;
+   color: black;
+}
+.contatos{
+  border-top: 2px solid white;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.contatos i{
+  color: white;
+  
+}
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    margin-top: auto;
+   
+    
+  }
+  footer i{
+    cursor: pointer;
+    color: white;
+  }
