@@ -17,36 +17,50 @@
       <ul>
         <li><a href="index .html">Home</a></li>
         <li><a href="../Portifólio/index.html">Portifólio</a></li>
+        <li><a href="../formulário/index.html">Contate-Me</a></li>
       </ul>
     </nav>
-    <div><li><a href="../formulário/index.html">Contate-Me</a></li></div>
   </header>
 
   <main>
     <section class="home animacao" id="home">
-      <div class="intro">
-        <h1>Olá, eu sou Murilo!</h1>
-        <p>Tenho 18 anos e sou apaixonado por tecnologia. Atualmente estou no primeiro quadrimestre da faculdade,
-          cursando técnico em Desenvolvimento de Sistemas no SENAI e trabalhando como jovem aprendiz na General Motors.
-          Meu objetivo é seguir carreira como desenvolvedor de sistemas.</p>
+      <div class="home-container">
+        <div class="foto-perfil">
+          <img src="../imagens/FotoPerfil.png" alt="Foto de inicio">
+        </div>
+        <div class="intro">
+          <h1 class="entrada-titulo">Olá, eu sou <span>Murilo</span>!</h1>
+          <p>
+            Tenho 18 anos e sou apaixonado por tecnologia.<br>
+            Atualmente estou no primeiro quadrimestre da faculdade, cursando técnico em Desenvolvimento de Sistemas no
+            SENAI e trabalhando como jovem aprendiz na General Motors.<br>
+            Meu objetivo é seguir carreira como desenvolvedor de sistemas.
+          </p>
+        </div>
       </div>
-      <img src="../imagens/FotoPerfil.jpg" alt="Foto de perfil ou logo pessoal">
     </section>
 
     <section class="curriculo" id="curriculo">
-      <div class="cards">
-        <div class="card">
-          <h2>Sobre mim</h2>
-          <p>Sou comunicativo, curioso e gosto de aprender novas tecnologias. Acredito que o trabalho em equipe e a
-            prática constante são essenciais no mundo da programação.</p>
-        </div>
+      <div class="sobre-container" id="sobre-mim">
+        <h2>Sobre mim</h2>
+        <p>Sou comunicativo, curioso e gosto de aprender novas tecnologias. Acredito que o trabalho em equipe e a
+          prática constante são essenciais no mundo da programação. Minha jornada na área de desenvolvimento de sistemas
+          começou com o curso técnico no SENAI, onde pude aprofundar meus conhecimentos em lógica de programação e em
+          linguagens essenciais como HTML e CSS. Agora, na universidade, estou expandindo minha base teórica e
+          explorando novas áreas como Python, o que me permite criar projetos mais complexos e dinâmicos. Acredito
+          firmemente que a colaboração, a curiosidade e o aprendizado contínuo são as chaves para o sucesso e estou
+          sempre buscando oportunidades para crescer e contribuir em um ambiente de equipe.</p>
+      </div>
 
+      <div class="cards">
         <div class="card">
           <h2>Cursos</h2>
           <ul>
-            <li>Curso de Inglês - Wise Up</li>
-            <li>Cursando Técnico em Desenvolvimento de Sistemas - SENAI(2º semestre)</li>
-            <li>Cursando Bachalerado em ciências e tecnologia na UFABC(1º quadrimestre)</li>
+            <li>Curso de Inglês - <strong>Wise Up</strong></li>
+            <li>Cursando Técnico em <strong>Desenvolvimento de Sistemas</strong> - <strong>SENAI</strong>(2º semestre)
+            </li>
+            <li>Cursando Bacharelado em <strong>ciências e tecnologia</strong> na <strong>UFABC</strong>(1º
+              quadrimestre)</li>
           </ul>
         </div>
 
@@ -63,17 +77,17 @@
         <div class="card" id="contato">
           <h2>Contate-me</h2>
           <div class="contato-item">
-            <i class="fas fa-envelope"></i> murilo@email.com
+            <i class="fas fa-envelope fa-2x"></i><a href="mailto:seuemail@dominio.com"> Email</a>
           </div>
 
           <div class="contato-item">
-            <i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/seuPerfil" target="_blank">LinkedIn</a>
+            <i class="fab fa-linkedin fa-2x"></i> <a href="https://linkedin.com/in/seuPerfil"
+              target="_blank">LinkedIn</a>
           </div>
 
           <div class="contato-item">
-            <i class="fab fa-github"></i> <a href="https://github.com/seuUsuario" target="_blank">GitHub</a>
+            <i class="fab fa-github fa-2x"></i> <a href="https://github.com/seuUsuario" target="_blank">GitHub</a>
           </div>
-
         </div>
       </div>
     </section>
@@ -83,7 +97,6 @@
       <div class="cards">
         <div class="card">
           <img src="../imagens/Projeto_Cardapio.png" alt="Imagem-ProjetoCardapio">
-
           <h3>Cardápio Online</h3>
           <p>Sistema para restaurantes adicionarem, editarem e removerem pratos.</p>
           <a href="https://github.com/murilomxz/Cardapio-Online.git" target="_blank">Ver projeto</a>
@@ -95,8 +108,9 @@
           <a href="https://github.com/murilomxz/Site---Aluguel-de-carros.git" target="_blank">Ver projeto</a>
         </div>
       </div>
-      <a href="../Portifólio/index.html">  <button>Portifólio Completo </button></a>
+      <a href="../Portifólio/index.html"> <button>Portifólio Completo </button></a>
     </section>
+
     <section class="stack">
       <h2>Stack Tecnológica</h2>
       <div class="cards">
@@ -107,37 +121,53 @@
       </div>
     </section>
 
-    <section class="aprendizado">
-      <h2>O que estou aprendendo agora</h2>
-      <ul>
-        <li>python básico- faculdade</li>
-        <li>Prática com Git e GitHub</li>
-        <li>Backend</li>
-        <li>aprofundamento em frontend</li>
-      </ul>
-    </section>
-  
-    <div class="carregamento">
+<div class="loading">
     <div class="terminal-loader">
       <div class="terminal-header">
-        <div class="terminal-title">Status</div>
+        <div class="terminal-title">Oque Estou Aprendendo</div>
         <div class="terminal-controls">
           <div class="control close"></div>
           <div class="control minimize"></div>
           <div class="control maximize"></div>
         </div>
       </div>
+      <div class="textos">
+       <div class="texto"> Back-End</div>
+       <div class="texto">  Aprofundamento Em Front-End </div>
+        <div class="texto"> Python</div>
+        <div class="texto"> Banco De Dados </div>
+      </div>
       <div class="text">Loading...</div>
     </div>
 </div>
-
   </main>
 
   <footer>
-    <p>&copy; 2025 Murilo | Desenvolvedor em formação</p>
-    <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-    <a href="https://github.com/murilomxz"><i class="fab fa-github fa-2x"></i></a>
-    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+    <div class="conteudo">
+      <div class="footer-links">
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="index .html">Home</a></li>
+          <li><a href="../Portifólio/index.html">Portifólio</a></li>
+          <li><a href="../formulário/index.html">Formulário</a></li>
+        </ul>
+      </div>
+
+      <div class="social-media">
+        <h3>Redes Sociais</h3>
+        <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"><i
+            class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://github.com/murilomxz"><i class="fab fa-github fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+      </div>
+
+      <div class="contato-info">
+        <h3>Contato</h3>
+        <p><i class="fas fa-envelope"></i> Murilo@Gmail.com</p>
+        <p><i class="fas fa-phone"></i> (11) 11111-1111</p>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2025 Murilo | Desenvolvedor em formação</p>
   </footer>
 </body>
 
