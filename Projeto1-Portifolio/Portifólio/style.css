@@ -59,6 +59,10 @@ header li a:hover {
   background-color: #6EACDA;
   color: #021526;
 }
+.active{
+  background-color: #6EACDA;
+  color: black;
+}
 
 .Projetos h1 {
   text-align: center;
@@ -241,6 +245,10 @@ footer {
   font-size: 14px;
   color: #bbb;
 }
+.active-footer{
+  font-weight: bold;
+  
+  }
 
 a {
   color: inherit;
