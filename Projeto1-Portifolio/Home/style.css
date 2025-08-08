@@ -118,7 +118,7 @@ main {
 #sobre-mim{
   max-width: 800px;
   margin: 0 auto 50px auto;
-  background-color: #6EACDA;
+  background-color: #021526;
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   padding: 40px;
@@ -137,7 +137,7 @@ main {
 }
 
 .card {
-  background-color: #6EACDA;
+  background-color: #021526;
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   padding: 25px;
@@ -154,7 +154,7 @@ main {
 
 .card h2, .card h3 {
   margin-bottom: 15px;
-  color: #021526;
+  color: #6EACDA;
 }
 
 .card ul {
@@ -185,7 +185,7 @@ a:hover {
 }
 
 .contato-item i {
-  color: #021526;
+  color: white;
 }
 
 
@@ -220,7 +220,16 @@ a:hover {
   color: #021526;
   transform: translateY(-5px);
 }
-
+.link-projeto i{
+  padding: 5px;
+}
+.link-projeto a{
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.link-projeto a:hover{
+   text-decoration: underline;
+}
 
 .stack {
   padding: 40px 0;
