@@ -73,11 +73,11 @@ header li a:hover {
 .container{
   display: flex;
   justify-content: space-between;
-  margin: 60px;
+  margin: 60px auto;
   align-items: center;
 }
 .foto-perfil img {
-  width: 100%;
+  width: 150%;
   
 }
 
@@ -90,6 +90,7 @@ header li a:hover {
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
   width: 100%;
+  margin-left: 20px;
 }
 
 .form-section h1 {
@@ -125,7 +126,7 @@ header li a:hover {
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
-  transition: 0.3s;
+  transition:  0.3s;
 }
 
 .form-contato button:hover {
@@ -137,7 +138,7 @@ header li a:hover {
   border-top: 2px solid #6EACDA;
   text-align: center;
   padding: 10px 20px;
-  margin-top: 10px;
+  margin-top: 16px;
 }
 
 .contatos i {
@@ -146,7 +147,7 @@ header li a:hover {
 footer {
   background-color: #021526;
   color: #6EACDA;
-  padding: 40px 5%;
+  padding: 40px 40px;
   margin-top: 50px;
 }
 

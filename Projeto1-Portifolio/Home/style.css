@@ -108,7 +108,7 @@ main {
 
 .foto-perfil img {
   width: 100%;
-  animation:  4s ease-in-out infinite;
+  animation: float  3s ease-in-out infinite;
 }
 
 .curriculo {
@@ -275,7 +275,7 @@ a:hover {
 footer {
   background-color: #021526;
   color: #6EACDA;
-  padding: 40px 5%;
+  padding: 40px 40px;
   margin-top: 50px;
 }
 
@@ -417,15 +417,15 @@ footer {
 }
 
 .control.close {
-  background-color: #e33;
+  background-color: #03346E;
 }
 
 .control.minimize {
-  background-color: #ee0;
+  background-color: #007bff;
 }
 
 .control.maximize {
-  background-color: #0b0;
+  background-color: #6EACDA;
 }
 
 .terminal-title {
