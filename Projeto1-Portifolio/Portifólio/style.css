@@ -162,6 +162,7 @@ header li a:hover {
   font-weight: bold;
   margin-top: 20px;
   cursor: pointer;
+  transition: all 0.3 ease-in;
 }
 
 .mensagem i {
@@ -171,6 +172,7 @@ header li a:hover {
 .mensagem button:hover {
   background-color: #6EACDA;
   color: #021526;
+  transform: translateY(-10px);
 }
 
 footer {
