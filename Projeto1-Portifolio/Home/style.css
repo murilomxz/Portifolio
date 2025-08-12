@@ -60,8 +60,8 @@ header li a:hover {
   color: #021526;
 }
 .active{
-  background-color: #6EACDA;
-  color: black;
+  border-bottom:2px solid #6EACDA;
+  color: white;
 }
 main {
   margin: 0 auto;
