@@ -225,10 +225,12 @@ a:hover {
 }
 .link-projeto i{
   padding: 5px;
+  margin-top: 10px;
 }
 .link-projeto a{
   font-weight: bold;
   transition: all 0.3s ease;
+ 
 }
 .link-projeto a:hover{
    text-decoration: underline;
